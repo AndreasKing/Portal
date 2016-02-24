@@ -90,7 +90,7 @@ namespace Portal.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DbConn", throwIfV1Schema: false)
+            : base("PortalContext", throwIfV1Schema: false)
         {
         }
 
